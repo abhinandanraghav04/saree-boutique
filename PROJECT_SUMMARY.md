@@ -52,7 +52,10 @@ A fully functional, modern e-commerce web application for a home-based saree bou
 │       ├── page.tsx               # Redirects to login
 │       ├── login/page.tsx         # Admin authentication
 │       ├── dashboard/page.tsx     # Admin dashboard
-│       └── sarees/page.tsx        # Saree management
+│       └── sarees/
+│           ├── page.tsx           # Saree management
+│           ├── new/page.tsx       # Add new saree form
+│           └── edit/[id]/page.tsx # Edit saree form
 ├── components/
 │   ├── ui/                        # Reusable UI components
 │   │   ├── button.tsx
@@ -75,7 +78,9 @@ A fully functional, modern e-commerce web application for a home-based saree bou
 ├── .env.example                   # Environment variable template
 ├── README.md                      # Main documentation
 ├── QUICKSTART.md                  # Quick setup guide
-└── DEPLOYMENT.md                  # Deployment instructions
+├── DEPLOYMENT.md                  # Deployment instructions
+├── ADMIN_GUIDE.md                 # Complete admin panel guide
+└── PROJECT_SUMMARY.md             # This file
 ```
 
 ---
@@ -159,6 +164,23 @@ A fully functional, modern e-commerce web application for a home-based saree bou
 - Edit/delete actions
 - Stock status indicators
 - Add new saree button
+
+#### 9. Add New Saree (`/admin/sarees/new`)
+- Complete form with all saree details
+- Multiple image upload (up to 5)
+- Image preview and removal
+- Fabric and occasion dropdowns
+- Checkboxes for features (blouse piece, featured, available)
+- Form validation
+- Firebase Storage integration ready
+
+#### 10. Edit Saree (`/admin/sarees/edit/[id]`)
+- Pre-filled form with existing data
+- Edit all saree properties
+- Manage existing images (view/remove)
+- Add new images
+- Update stock status
+- Save changes to Firestore
 
 ---
 
