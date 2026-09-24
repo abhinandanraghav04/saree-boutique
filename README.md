@@ -1,8 +1,10 @@
-# Saree Boutique - Modern E-Commerce Platform
+# Saree Boutique
 
-A modern, premium web application for a home-based saree boutique. Built with Next.js 16, React 19, and TypeScript.
+An online storefront and admin panel for a small home-based saree business. Customers browse the catalogue and order through WhatsApp with a pre-filled message, which is how the business already takes orders. The owner manages stock and photos from a private admin panel, without needing any technical knowledge.
 
-## 🌟 Features
+**Stack:** Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS, Firebase (Auth, Firestore, Storage).
+
+## Features
 
 ### User Side (Public Store)
 - **Landing Page**: Beautiful hero section with featured sarees
@@ -17,7 +19,7 @@ A modern, premium web application for a home-based saree boutique. Built with Ne
 - **Saree Management**: Full CRUD operations for saree inventory
 - **Image Management**: Upload and manage product images
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **Framework**: Next.js 16 (App Router)
 - **Language**: TypeScript
@@ -27,13 +29,13 @@ A modern, premium web application for a home-based saree boutique. Built with Ne
 - **Backend**: Firebase (Auth + Firestore + Storage)
 - **Icons**: Lucide React
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Node.js 18+ and npm
 - Firebase account (for backend services)
 - Git
 
-## 🛠️ Installation
+## Installation
 
 1. Clone the repository:
 ```bash
@@ -75,7 +77,7 @@ npm run dev
 
 6. Open [http://localhost:3000](http://localhost:3000)
 
-## 🗄️ Database Schema
+## Database Schema
 
 ### Sarees Collection
 ```typescript
@@ -106,7 +108,7 @@ npm run dev
 }
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── app/
@@ -137,7 +139,7 @@ npm run dev
     └── index.ts                  # TypeScript types
 ```
 
-## 🎨 Design System
+## Design System
 
 ### Colors
 - Primary: Amber (700, 800)
@@ -149,21 +151,21 @@ npm run dev
 - Serif (Headings): Playfair Display
 - Sans (Body): Inter
 
-## 🔒 Security Notes
+## Security Notes
 
 - Admin routes should be protected with authentication
 - Firebase security rules should be configured
 - Environment variables must be kept secure
 - Never commit `.env` files to version control
 
-## 📱 WhatsApp Integration
+## WhatsApp Integration
 
 The app uses WhatsApp Business API links to enable direct ordering:
 - Format: `https://wa.me/{phone}?text={message}`
 - Pre-filled messages include product details
 - Configurable via `NEXT_PUBLIC_WHATSAPP_NUMBER`
 
-## 🚢 Deployment
+## Deployment
 
 ### Deploy to Vercel
 
@@ -177,7 +179,7 @@ npm run build
 npm run start
 ```
 
-## 📈 Future Enhancements
+## Future Enhancements
 
 - [ ] Full checkout with payment integration
 - [ ] Customer accounts and order history
@@ -189,15 +191,15 @@ npm run start
 - [ ] Wishlist functionality
 - [ ] Size and fit guide
 
-## 🤝 Contributing
+## Contributing
 
 This is a private project for a home-based boutique. Contact the owner for contribution guidelines.
 
-## 📄 License
+## License
 
 Private and Proprietary. All rights reserved.
 
-## 📞 Support
+## Support
 
 For support or inquiries:
 - Email: info@sareeboutique.com
@@ -205,4 +207,4 @@ For support or inquiries:
 
 ---
 
-Built with ❤️ for traditional Indian elegance
+Built with for traditional Indian elegance
